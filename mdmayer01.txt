@@ -1,0 +1,90 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=int,DC=uhs,DC=com> with scope subtree
+# filter: (samaccountname=mdmayer01)
+# requesting: ALL
+#
+
+# MDMAYER01, IS Support, int.uhs.com
+dn: CN=MDMAYER01,OU=IS Support,DC=int,DC=uhs,DC=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: MDMAYER01
+sn: Mayer
+title: IS SUPPORT ANALYST
+description: Network Operations - Network Engineer
+physicalDeliveryOfficeName: District 010
+givenName: Mark
+initials: D.
+distinguishedName: CN=MDMAYER01,OU=IS Support,DC=int,DC=uhs,DC=com
+instanceType: 4
+whenCreated: 20121017144739.0Z
+whenChanged: 20150619155250.0Z
+displayName: Mayer, Mark D.
+uSNCreated: 32447
+memberOf: CN=GG_TrizmaShare,OU=UHS Groups,DC=int,DC=uhs,DC=com
+memberOf: CN=All Corporate Users,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=Remote Access,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=HSRs,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=IS,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=IS Operations,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=IS Support,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=IS_SUPPORT,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=GG_UHS_ISNetOps,OU=UHS Groups,DC=int,DC=uhs,DC=com
+memberOf: CN=Enterprise Admins,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+memberOf: CN=Users,CN=Builtin,DC=int,DC=uhs,DC=com
+memberOf: CN=Domain Admins,OU=Groups,OU=All Users,DC=int,DC=uhs,DC=com
+uSNChanged: 10954661
+company: Universal Hospital Services
+streetAddress:: NjYyNSBXZXN0IDc4dGggU3RyZWV0DQpTdWl0ZSAzMDA=
+name: MDMAYER01
+objectGUID:: yeOn8mQDiUq3xlVP0u24KQ==
+userAccountControl: 512
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+employeeID: 5929
+badPasswordTime: 130764404841302360
+lastLogoff: 0
+lastLogon: 130795706484495582
+pwdLastSet: 130752531113344513
+primaryGroupID: 513
+userParameters:: bSAgICAgICAgICAgICAgICAgICAgIGQJICAgICAgICAgICAgICAgICAgICAgI
+ CAgUAkeHAFtc05QQWxsb3dEaWFsaW7jhLPjgLDjhLPjgLDmhLPjgLDjiLPjgLDmhLPjgLDmkLLjgL
+ DjhLPjgLAmFAFtc1JBRElVU1NlcnZpY2VUeXBl44yz44Cw5oSz44Cw44Sz44Cw5oSz44Cw44iz44C
+ wMBABbXNSQVNTYXZlZENhbGxiYWNrTnVtYmVy46Cz44Cw5oSz44Cw44Cz44Cw5oSz44CwGggBQ3R4
+ Q2ZnUHJlc2VudOOUteaUseaIsOOBohgIAUN0eENmZ0ZsYWdzMeOAsOOBpuOAsuOAuRIIAUN0eFNoY
+ WRvd+OIsOOAsOOAsOOAsCoCAUN0eE1pbkVuY3J5cHRpb25MZXZlbOOEsBguAUN0eFdGSG9tZURpcu
+ aMteaMteOct+OUtuaUtuOQtuOkt+aMteOQtuOEtuOQt+OEtuaMteaQtOOQtOaQtOOEtOOkteOUtOO
+ IteOAs+OEs+OAsCIGAUN0eFdGSG9tZURpckRyaXZl46C05oSz44Cw
+objectSid:: AQUAAAAAAAUVAAAAiRNYBDYNDhh9Pdht1EcAAA==
+adminCount: 1
+accountExpires: 9223372036854775807
+logonCount: 2438
+sAMAccountName: MDMAYER01
+sAMAccountType: 805306368
+userPrincipalName: MDMAYER01@int.uhs.com
+lockoutTime: 0
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=int,DC=uhs,DC=com
+mail: MDMAYER@uhs.com
+manager: CN=SCSCHOLL01,OU=IS Support,DC=int,DC=uhs,DC=com
+
+# search reference
+ref: ldap://DomainDnsZones.int.uhs.com/DC=DomainDnsZones,DC=int,DC=uhs,DC=com
+
+# search reference
+ref: ldap://ForestDnsZones.int.uhs.com/DC=ForestDnsZones,DC=int,DC=uhs,DC=com
+
+# search reference
+ref: ldap://int.uhs.com/CN=Configuration,DC=int,DC=uhs,DC=com
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 5
+# numEntries: 1
+# numReferences: 3

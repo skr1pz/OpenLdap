@@ -1,0 +1,23 @@
+# extended LDIF
+#
+# LDAPv3
+# base <DC=int,DC=uhs,DC=com> with scope subtree
+# filter: (sAMAccountName=bphiggins01)
+# requesting: ALL
+#
+
+# search reference
+ref: ldap://DomainDnsZones.int.uhs.com/DC=DomainDnsZones,DC=int,DC=uhs,DC=com
+
+# search reference
+ref: ldap://ForestDnsZones.int.uhs.com/DC=ForestDnsZones,DC=int,DC=uhs,DC=com
+
+# search reference
+ref: ldap://int.uhs.com/CN=Configuration,DC=int,DC=uhs,DC=com
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 4
+# numReferences: 3

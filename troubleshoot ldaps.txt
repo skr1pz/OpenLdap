@@ -1,0 +1,8 @@
+ldapsearch.exe -x -H ldaps://uhsdc6501.int.uhs.com -D uhs\mdmayer01 -w uhs30mdm -b "DC=int,DC=uhs,DC=com" (sAMAccountName=mdmayer01)  -d7
+
+-d1
+
+-d3
+
+
+ldapsearch.exe -ZZ -x -H ldaps://uhsdc6501.int.uhs.com -D -W  -d7

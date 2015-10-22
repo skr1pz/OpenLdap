@@ -1,0 +1,1 @@
+ldapsearch.exe -h mickeymouse.int.uhs.com -D uhs\mdmayer01 -w uhs26mdm -b "DC=int,DC=uhs,DC=com" (samaccountname=jewatkin01) | grep displayName
